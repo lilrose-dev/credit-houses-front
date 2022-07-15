@@ -1,7 +1,6 @@
 import './home.css'
 import { useState, useEffect, useRef } from 'react';
 import Logo from '../assets/images/logo.png'
-import { NavLink } from 'react-router-dom';
 
 
 function Home() {
