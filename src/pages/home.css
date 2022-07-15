@@ -1,0 +1,131 @@
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins","Arial", sans-serif;
+}
+
+.container {
+    max-width: 1330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+    margin-top: 17px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.links:hover{
+    color: #de2137;
+}
+
+.select_lang {
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color: #de2137;
+}
+
+
+.select_home {
+    max-width: 850px;
+    width: auto;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #de2137;
+    color: #fff;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 780px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.select {
+    display: block;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.option {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.context {
+    margin-top: 40px;
+    color: black;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    margin-left: 40px;
+}
+.contex_item{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.contex_item span{
+    color: #de2137;
+}
+
+.data {
+    /* max-width: 900px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.info{
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
+    color: black;
+    text-align: center;
+}
+
+.bank_info {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.bank_info span{
+    color:#de2137;
+}
+
+.desc{
+    font-size: 17px;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 30px;
+}
